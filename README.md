@@ -1,6 +1,6 @@
 ### Demo Link
 
-[Click Here]() to view it in the browser.
+[Click Here](https://pedantic-hawking-5fbd5a.netlify.app) to view it in the browser.
 
 ## Installation
 - Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copying the url
