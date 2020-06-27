@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from "react-redux";
-import { changePage } from "./../../redux/action";
+import { changePage } from "../../redux/action";
 
 const PageList = ({ page, perPage, apiData,changePage }) => {
 

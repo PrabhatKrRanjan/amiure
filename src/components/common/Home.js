@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchData } from '../../redux/action';
 import PageList from './PageList';
-import { changePerPage } from './../../redux/action';
+import { changePerPage } from '../../redux/action';
 
 export class Home extends Component {
 

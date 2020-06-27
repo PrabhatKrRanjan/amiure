@@ -24,18 +24,18 @@
     - App.js
     -components
         -auth
-            - Login.jsx
-            - Register.jsx
+            - Login.js
+            - Register.js
         -common
-            - Home.jsx
-            - PageList.jsx
-            - PageNotFound.jsx
+            - Home.js
+            - PageList.js
+            - PageNotFound.js
     -routes
-        - Routes.jsx
+        - Routes.js
     - redux
-        - action.jsx
-        - reducer.jsx
-        - store.jsx
+        - action.js
+        - reducer.js
+        - store.j
 ```
 
 In the project directory, you can run:
