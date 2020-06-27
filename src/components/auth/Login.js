@@ -23,6 +23,12 @@ class Login extends Component {
         this.props.loginUser(this.state);
     }
 
+    componentDidMount() {
+        let data = localStorage.getItem("loginData")
+        console.log(data)
+        this.props.loginUser(data);
+    }
+        
     render() {
         return (
             <div>

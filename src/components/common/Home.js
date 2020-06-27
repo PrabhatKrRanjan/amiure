@@ -10,11 +10,6 @@ export class Home extends Component {
         this.props.fetchData()
     }
 
-    handelChange = e => {
-        console.log(e.target.value);
-        this.props.changePerPage(e.target.value)
-    }
-
     render() {
         const { page, perPage, apiData } = this.props
         return (
