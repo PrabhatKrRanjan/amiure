@@ -10,7 +10,7 @@ export class Home extends Component {
         this.props.fetchData()
     }
 
-    handelChange = e => {
+    handelChange = (e) => {
         this.props.changePerPage(e.target.value)
     }
 
@@ -54,7 +54,7 @@ export class Home extends Component {
                             <div className="form-row align-items-center"> Select No View Per Page
                                 <div className="col-auto mx-2">
                                     <select onChange ={this.handelChange} className="custom-select mr-sm-2">
-                                        {[5,10,15,20,25].map((item, index) => <option key={item} value={item}>{item}</option> )}
+                                        {[10,15,20,25].map((item, index) => <option key={item} value={item}>{item}</option> )}
                                     </select>
                                 </div>
                             </div>
