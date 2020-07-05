@@ -28,6 +28,8 @@ const reducer = (state = initialState, action) => {
           item.password === action.payload.password
       );
 
+      localStorage.setItem("loginData", JSON.stringify(userData))
+      
       if (userData.length === 1) {
         status = true;
       }
